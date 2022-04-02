@@ -45,6 +45,6 @@ tasks.withType<JavaCompile> {
 bukkit {
     name = "GameJamPlugin"
     load = net.minecrell.pluginyml.bukkit.BukkitPluginDescription.PluginLoadOrder.STARTUP
-    main = "club.devcord.gamejam.JamPlugin"
+    main = "com.github.somehowpatrick.gamejam.GameJamPlugin"
     apiVersion = "1.18"
 }
